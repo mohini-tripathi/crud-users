@@ -1,4 +1,6 @@
-# react-hooks-redux-registration-login-example
+Inventory Management System Prototype with React
+
+with these features:
 
 React Hooks + Redux - User Registration and Login Tutorial & Example
 

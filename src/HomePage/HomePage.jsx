@@ -19,9 +19,9 @@ function HomePage() {
 
     return (
         <div className="col-lg-8 offset-lg-2">
-            <h1>Hi {user.firstName}!</h1>
-            <p>You're logged in with React Hooks!!</p>
-            <h3>All registered users:</h3>
+            <h4>Hi {user.firstName}!</h4><br/>
+            <p>You're logged in!!</p>
+            <h5>List of registered vendors</h5>
             {users.loading && <em>Loading users...</em>}
             {users.error && <span className="text-danger">ERROR: {users.error}</span>}
             {users.items &&
@@ -32,7 +32,7 @@ function HomePage() {
                             {
                                 user.deleting ? <em> - Deleting...</em>
                                 : user.deleteError ? <span className="text-danger"> - ERROR: {user.deleteError}</span>
-                                : <span> - <a onClick={() => handleDeleteUser(user.id)} className="text-primary">Delete</a></span>
+                                : <span> - <a onClick={() => handleDeleteUser(user.id)} className="text-primary">Delete Account</a></span>
                             }
                         </li>
                     )}
