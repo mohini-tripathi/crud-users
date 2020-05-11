@@ -1,4 +1,4 @@
-Inventory Management System Prototype with React
+## Inventory Management System Prototype with React ##
 
 In the project directory, you can run:
 
