@@ -6,6 +6,7 @@ export const alertActions = {
     clear
 };
 
+
 function success(message) {
     return { type: alertConstants.SUCCESS, message };
 }
