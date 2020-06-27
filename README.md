@@ -1,6 +1,6 @@
 ## Inventory Management System Prototype with React ##
 
-In the project directory, you can run:
+In the project directory, to start the project, you can run:
 
 ### `npm start`
 
